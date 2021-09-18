@@ -3,11 +3,45 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Version>1.2</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>AestheticalZ</Authors>
+    <PackageId>FlagPFP.Core</PackageId>
+    <Product>FlagPFP.Core</Product>
+    <Description>My old CLI program, but improved and converted into a .NET library for general usage.
+
+Originally designed with Discord bots in mind.</Description>
+    <Copyright>Copyleft 2021 AestheticalZ</Copyright>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/AestheticalZ/FlagPFPCore</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>utility json image pride flags dotnet5.0</PackageTags>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>First public release of a separate version of FlagPFP.Core!</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/AestheticalZ/FlagPFPCore</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LICENSE" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\FlagPFPGUI\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\FlagPFPGUI\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
