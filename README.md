@@ -6,3 +6,6 @@ My old CLI program, but improved and converted into a .NET library for general u
 **Available in NuGet!** https://www.nuget.org/packages/FlagPFP.Core/
 
 The package will be added to the Github Package Registry soon.
+
+# Usage
+The source code contains XML documentation that can aid you in development. If you still need a reference while I implement proper documentation to this repository, check out [this repository.](https://github.com/AestheticalZ/flagpfp-gui)
