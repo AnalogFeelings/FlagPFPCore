@@ -1,4 +1,6 @@
 # FlagPFP.Core
+<img src="logo.png" alt="logo" width="128" height="128"/>
+
 My old CLI program, but improved and converted into a .NET library for general usage.
 
 **Available in NuGet!** https://www.nuget.org/packages/FlagPFP.Core/
